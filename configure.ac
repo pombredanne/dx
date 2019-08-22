@@ -218,6 +218,7 @@ AC_DEFINE_UNQUOTED(BSH, "$bsh_path", [Path to the system's Bourne shell.])
 dnl End of command line options configuration
 
 dnl Start DX configuration
+AC_PROG_CXX
 AC_LANG([C++])
 AC_CHECK_HEADERS(stdlib.h)
 AC_LANG([C])
