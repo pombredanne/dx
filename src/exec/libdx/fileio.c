@@ -50,6 +50,7 @@ static int fd_socketsize(int fd, int *rdsize, int *wrsize);
 /* if not using array disk, this data struct mimics the same calling
  *  sequence (e.g. read/write by name), using normal unix files.
  */
+#define __USE_FORTIFY_LEVEL 0
 #include <fcntl.h>
 
 #define NSLOTS 16     /* was 32 */
