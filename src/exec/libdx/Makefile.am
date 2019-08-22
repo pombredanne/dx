@@ -5,7 +5,7 @@ MINOR_VERSION=@MINOR_VERSION@
 MICRO_VERSION=@MICRO_VERSION@
 
 #INCLUDES = -I../../../include  -D@ARCH@
-INCLUDES = -I${top_srcdir}/include  -D@ARCH@
+AM_CPPFLAGS = -I${top_srcdir}/include  -D@ARCH@
 
 dxlibdir = $(prefix)/dx/lib_@ARCH@
 

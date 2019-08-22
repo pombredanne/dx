@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 
-INCLUDES = -I${srcdir}/../widgets -I${top_srcdir}/include -D@ARCH@
+AM_CPPFLAGS = -I${srcdir}/../widgets -I${top_srcdir}/include -D@ARCH@
 
 noinst_LIBRARIES = libBASE.a
 

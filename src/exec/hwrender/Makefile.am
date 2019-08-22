@@ -2,7 +2,7 @@
 
 SUBDIRS = opengl gl xgl starbase
 
-INCLUDES = -I${top_srcdir}/include -I${srcdir}/../libdx -D@ARCH@
+AM_CPPFLAGS = -I${top_srcdir}/include -I${srcdir}/../libdx -D@ARCH@
 
 noinst_LTLIBRARIES = libHW.la
 

@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 
-INCLUDES = -I${srcdir}/../dpexec -D@ARCH@
+AM_CPPFLAGS = -I${srcdir}/../dpexec -D@ARCH@
 
 EXP=${top_srcdir}/lib/dxexec.exp
 WEXP=${top_srcdir}/lib/dxexec.def

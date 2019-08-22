@@ -1,6 +1,6 @@
 
 
-INCLUDES = -I${srcdir}/../base -I${top_srcdir}/include -I${srcdir}/../dxuilib -D@ARCH@
+AM_CPPFLAGS = -I${srcdir}/../base -I${top_srcdir}/include -I${srcdir}/../dxuilib -D@ARCH@
 
 dxbindir = $(prefix)/dx/bin_@ARCH@
 dxbin_PROGRAMS = dxui

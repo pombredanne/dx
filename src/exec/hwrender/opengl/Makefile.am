@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 
-INCLUDES =  -I${top_srcdir}/include -I${srcdir}/.. -I${srcdir}/../../libdx -D@ARCH@
+AM_CPPFLAGS =  -I${top_srcdir}/include -I${srcdir}/.. -I${srcdir}/../../libdx -D@ARCH@
 
 noinst_LTLIBRARIES = libOPENGL.la
 

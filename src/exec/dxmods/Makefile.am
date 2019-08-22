@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 
-INCLUDES = -I${top_srcdir}/include -I${srcdir}/../dpexec -I$(BUILDBASE)/include -D@ARCH@
+AM_CPPFLAGS = -I${top_srcdir}/include -I${srcdir}/../dpexec -I$(BUILDBASE)/include -D@ARCH@
 
 dxmdfdir = $(prefix)/dx/lib
 noinst_LTLIBRARIES = libDXMODS.la libusercm.la libuser.la libDXMODSN.la
